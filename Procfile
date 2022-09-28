@@ -1,1 +1,1 @@
-worker: npm install -g pm2 && pm2-runtime index.js --bot-md
+worker: npm install -g pm2 && pm2 start riy.js && pm2 save && pm2 logs
