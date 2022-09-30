@@ -8,15 +8,15 @@ let handler = async (m, { conn }) => {
   title: `${await conn.getName(conn.user.jid)}`,
   description: ` *• SEWA BOT & UP TO PREMIUM •*
         
-1. Grup / 30 Hari
-Rp. 15,000 Dana
-Rp. 20,000 Pulsa
-2. Premium / 30 Hari
-Rp. 10,000 Dana
-Rp. 15,000 Pulsa
-3. Premium + Grup / 30 Hari
-Rp. 20,000 Dana
-Rp. 25,000 Pulsa
+1. Grup / 7 Hari
+Rp. 3,000 Gopay
+Rp. 5,000 Gopay
+2. Premium / 7 Hari
+Rp. 5,000 Gopay
+Rp. 8,000 Gopay
+3. Premium + Grup / Permanen
+Rp. 10,000 Gopay
+Rp. 10,000 Gopay
 wa.me/${owner[0]}
 *Bukan Bot!!!*
 *Owner ${conn.user.name}*
